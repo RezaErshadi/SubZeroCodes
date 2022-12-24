@@ -1,0 +1,13 @@
+string act
+string type
+int64 n_attenuator
+int64[] attenuators
+int64[] gains
+int64[] tx
+int64[] rx
+string polarization
+int64 n_subburst
+bool download
+string prefix
+---
+bool msg_sent

@@ -1,0 +1,13 @@
+string gps
+string nmea
+string msg
+int64 iqual
+string qual
+string date
+string time
+float64 lat
+float64 lon
+float64 alt
+float64 geoid
+float64 speed
+float64 course

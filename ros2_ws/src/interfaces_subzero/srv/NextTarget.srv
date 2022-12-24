@@ -1,0 +1,8 @@
+int64 i_next_target
+float64 next_target_lat
+float64 next_target_lon
+float64 bearing_to_next_target
+float64 dist_to_next_target
+float64 dist_from_last_ref
+---
+bool msg_sent

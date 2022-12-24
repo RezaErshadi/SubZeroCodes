@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>subzero_dec22</name>
+  <version>0.0.0</version>
+  <description>subzero control system</description>
+  <maintainer email="mohammadreza.ershadi@uni-tuebingen.de">RezaErshadi</maintainer>
+  <license>Nothing</license>
+
+  <depend>rclpy</depend>
+  <depend>socket</depend>
+  <depend>pynmea2</depend>
+  <depend>serial</depend>
+  <depend>os</depend>
+  <depend>datetime</depend>
+  <depend>std_msgs</depend>
+  <depend>functools</depend>
+  <depend>pyproj</depend>
+  <depend>math</depend>
+  <depend>subprocess</depend>
+  <depend>logging</depend>
+
+  <test_depend>ament_copyright</test_depend>
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>python3-pytest</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
